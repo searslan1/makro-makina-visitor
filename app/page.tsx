@@ -1,5 +1,5 @@
 import VisitorForm from "@/components/visitor-form"
-import EnvironmentCheck from "@/components/environment-check"
+
 
 export default function Home() {
   return (
@@ -29,8 +29,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Environment Check */}
-        <EnvironmentCheck />
 
         {/* Form */}
         <VisitorForm />
